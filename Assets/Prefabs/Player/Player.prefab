@@ -47,6 +47,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2546303639264013277}
   - component: {fileID: 7174345804231195008}
+  - component: {fileID: 3249990984404157030}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -95,6 +96,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &3249990984404157030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7172127943680791896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d4d40b3780c43ac9a8ec4fa1a47db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8397453649930035605
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,6 +117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4411289902194326869}
+  - component: {fileID: 4504740794156105544}
   m_Layer: 0
   m_Name: LookRoot
   m_TagString: Untagged
@@ -129,6 +143,18 @@ Transform:
   - {fileID: 4415884182883861455}
   m_Father: {fileID: 2546303639264013277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4504740794156105544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397453649930035605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3169711629b4ffb88768a01fc0a889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8657907536259132229
 GameObject:
   m_ObjectHideFlags: 0
