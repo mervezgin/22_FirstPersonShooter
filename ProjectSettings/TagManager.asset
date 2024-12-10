@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Axe
+  - Revolver
+  - Shotgun
+  - AssaultRifle
+  - WoodenSpear
+  - WoodenBow
   layers:
   - Default
   - TransparentFX
