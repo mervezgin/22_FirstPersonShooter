@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 4504740794156105544}
   m_Layer: 0
   m_Name: LookRoot
-  m_TagString: Untagged
+  m_TagString: LookRoot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -506,9 +506,10 @@ GameObject:
   - component: {fileID: 4993096738627695406}
   - component: {fileID: 2075139881975681432}
   - component: {fileID: 8747746540423051488}
+  - component: {fileID: 7161251496216740103}
   m_Layer: 6
   m_Name: FPCamera
-  m_TagString: Untagged
+  m_TagString: FPCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -623,6 +624,28 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!95 &7161251496216740103
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8954122606050023045}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc248c5199c4545b4a6b4362300bb928, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1679697187546277986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,10 +1058,6 @@ MonoBehaviour:
   weaponAim: 1
   weaponFireType: 0
   weaponBulletType: 1
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 0}
-  reloadSound: {fileID: 0}
 --- !u!4 &1679697187546411730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400048, guid: 9ba50ff5806385f4da160695a7223e1d, type: 3}
@@ -1512,10 +1531,6 @@ MonoBehaviour:
   weaponAim: 2
   weaponFireType: 0
   weaponBulletType: 0
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 1532264184400843543}
-  reloadSound: {fileID: 0}
 --- !u!4 &5422452004782620076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400028, guid: 2bd6bf150a6e08645964bd2baf2a789b, type: 3}
@@ -2050,10 +2065,6 @@ MonoBehaviour:
   weaponAim: 2
   weaponFireType: 0
   weaponBulletType: 0
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 2546371811305055357}
-  reloadSound: {fileID: 5259948049814102351}
 --- !u!1001 &6442514696294520641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2375,10 +2386,6 @@ MonoBehaviour:
   weaponAim: 1
   weaponFireType: 0
   weaponBulletType: 2
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 0}
-  reloadSound: {fileID: 0}
 --- !u!1001 &8445314943124433689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2791,10 +2798,6 @@ MonoBehaviour:
   weaponAim: 2
   weaponFireType: 1
   weaponBulletType: 0
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 5772644187376740824}
-  reloadSound: {fileID: 0}
 --- !u!4 &8445314943124566407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400030, guid: 48d42201fa1ddd74b8df820204882ede, type: 3}
@@ -3188,10 +3191,6 @@ MonoBehaviour:
   weaponAim: 0
   weaponFireType: 0
   weaponBulletType: 3
-  muzzleFlash: {fileID: 0}
-  attackPoint: {fileID: 0}
-  shootSound: {fileID: 0}
-  reloadSound: {fileID: 0}
 --- !u!4 &8763724428487244610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ded3362b8b3b82243b3043bb355c770c, type: 3}

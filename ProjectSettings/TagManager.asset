@@ -10,6 +10,9 @@ TagManager:
   - AssaultRifle
   - WoodenSpear
   - WoodenBow
+  - Crosshair
+  - LookRoot
+  - FPCamera
   layers:
   - Default
   - TransparentFX
