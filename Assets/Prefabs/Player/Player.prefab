@@ -223,6 +223,7 @@ Transform:
   m_Children:
   - {fileID: 4411289902194326869}
   - {fileID: 3956054117013028713}
+  - {fileID: 4500310905866149297}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &7174345804231195008
@@ -306,6 +307,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd109133e6014ceb9da743fb1d478b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 3206126327498834501, guid: a39c14ab8bda646bdb382d10e903b45f, type: 3}
+  spearPrefab: {fileID: 320792953945453585, guid: 5c8573811699a4133b94297989c9e808, type: 3}
+  arrowAndBowStartPosition: {fileID: 4500310905866149297}
+--- !u!1 &8276375175092150855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4500310905866149297}
+  m_Layer: 0
+  m_Name: ArrowBowStartPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4500310905866149297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8276375175092150855}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.525, z: 0.898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2546303639264013277}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8397453649930035605
 GameObject:
   m_ObjectHideFlags: 0

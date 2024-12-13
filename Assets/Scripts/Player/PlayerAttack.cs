@@ -9,16 +9,17 @@ public class PlayerAttack : MonoBehaviour
     public const string CROSSHAIR = "Crosshair";
     public const string ZOOMINANIM = "ZoomIn";
     public const string ZOOMOUTANIM = "ZoomOut";
+    [SerializeField] private GameObject arrowPrefab, spearPrefab;
+    [SerializeField] private Transform arrowAndBowStartPosition;
     private WeaponManager weaponManager;
     private Camera mainCamera;
     private GameObject crosshair;
     private Animator zoomCameraAnim;
-    private bool zoomed;
-    private bool isAiming;
     private float fireRate = 15f;
     private float nextTimeToFire;
-
     //private float damage = 20f;
+    //private bool zoomed;
+    private bool isAiming;
     private void Awake()
     {
         weaponManager = GetComponent<WeaponManager>();
@@ -42,7 +43,7 @@ public class PlayerAttack : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1f / fireRate;
                 weaponManager.GetCurrentSelectedWeapon().ShootAnimation();
-                //BulletFire();
+                BulletFired();
             }
         }
         //if we have a regular weapon thet shoots once
@@ -57,7 +58,7 @@ public class PlayerAttack : MonoBehaviour
                 if (weaponManager.GetCurrentSelectedWeapon().weaponBulletType == WeaponBulletType.Bullet)
                 {
                     weaponManager.GetCurrentSelectedWeapon().ShootAnimation();
-                    //BulletFire();
+                    BulletFired();
                 }
                 else
                 {//we have an spear or bow 
@@ -66,12 +67,11 @@ public class PlayerAttack : MonoBehaviour
                         weaponManager.GetCurrentSelectedWeapon().ShootAnimation();
                         if (weaponManager.GetCurrentSelectedWeapon().weaponBulletType == WeaponBulletType.Arrow)
                         {
-                            //throw and adjust the after throwng sit
-
+                            ThrowArrowOrSpear(true);
                         }
                         else if (weaponManager.GetCurrentSelectedWeapon().weaponBulletType == WeaponBulletType.Spear)
                         {
-
+                            ThrowArrowOrSpear(false);
                         }
                     }
                 }
@@ -107,5 +107,33 @@ public class PlayerAttack : MonoBehaviour
             }
         }
     }
+    private void ThrowArrowOrSpear(bool throwArrow)
+    {
+        if (throwArrow)
+        {
+            GameObject arrow = Instantiate(arrowPrefab);
+            arrow.transform.position = arrowAndBowStartPosition.position;
+            arrow.GetComponent<ArrowAndBow>().Launch(mainCamera);
+        }
+        else
+        {
+            if (!throwArrow)
+            {
+                GameObject spear = Instantiate(spearPrefab);
+                spear.transform.position = arrowAndBowStartPosition.position;
+                spear.GetComponent<ArrowAndBow>().Launch(mainCamera);
+            }
+        }
+    }
+    private void BulletFired()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit))
+        {
+            if (hit.transform)
+            {
 
+            }
+        }
+    }
 }
