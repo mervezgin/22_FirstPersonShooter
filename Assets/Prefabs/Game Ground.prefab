@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 64793394916761668}
   - component: {fileID: 54098342604221696}
   - component: {fileID: 208761321413754556}
+  - component: {fileID: 7245043997778256691}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -154,6 +155,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7245043997778256691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001119106885188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8df7dd670dbd840a68573e8a76e95337, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1001146086141016
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +201,7 @@ GameObject:
   - component: {fileID: 64795993801390408}
   - component: {fileID: 54995685784651484}
   - component: {fileID: 208629868082966016}
+  - component: {fileID: 1607270689546683254}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -308,6 +342,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1607270689546683254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001146086141016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 932e6c1db479648e682837d435e6561c, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1005173837247430
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +388,7 @@ GameObject:
   - component: {fileID: 64080803898995018}
   - component: {fileID: 54343539198054240}
   - component: {fileID: 208861298457007140}
+  - component: {fileID: 5485313594803134672}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -462,6 +529,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5485313594803134672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005173837247430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 714991af5f4eb45269e7899b5ea00c4f, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1008274642304832
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +575,7 @@ GameObject:
   - component: {fileID: 64803629299565512}
   - component: {fileID: 54870829650534312}
   - component: {fileID: 208734634891688938}
+  - component: {fileID: 5531989530909281924}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -616,6 +716,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5531989530909281924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008274642304832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: b2304b10e9000494a95698838b390a13, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1010387442990784
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +762,7 @@ GameObject:
   - component: {fileID: 64008747462440618}
   - component: {fileID: 54295503047959362}
   - component: {fileID: 208566897701576000}
+  - component: {fileID: 7114496416527672551}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -770,6 +903,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7114496416527672551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010387442990784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f9e469eeadb62487e816eae4e9ed23c6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1011658390454698
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,6 +949,7 @@ GameObject:
   - component: {fileID: 64298893542826752}
   - component: {fileID: 54708193840566446}
   - component: {fileID: 208832347071540822}
+  - component: {fileID: 1075565225626974810}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -924,6 +1090,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1075565225626974810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011658390454698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4265f323fecea4272977a620ae1eb8c0, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1032343977151108
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +1136,7 @@ GameObject:
   - component: {fileID: 64434808021774954}
   - component: {fileID: 54965163535413956}
   - component: {fileID: 208822659955477458}
+  - component: {fileID: 6237693710549590525}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -1078,6 +1277,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6237693710549590525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032343977151108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 9f3cd58d37df445e0971a667c1c4fb6d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1037582625550874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1323,7 @@ GameObject:
   - component: {fileID: 64594786189785766}
   - component: {fileID: 54874085597344338}
   - component: {fileID: 208548342533748516}
+  - component: {fileID: 2405183169310076984}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -1232,6 +1464,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &2405183169310076984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037582625550874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 6b4f175d3ac9046019ff4e1d66c279ee, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1047314309485040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1510,7 @@ GameObject:
   - component: {fileID: 64629819791687538}
   - component: {fileID: 54409318083082948}
   - component: {fileID: 208144959047669372}
+  - component: {fileID: 6781863954458146671}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -1386,6 +1651,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6781863954458146671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047314309485040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 95056ad05546d4daa88ff34c7943e643, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1060387610436980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,6 +1697,7 @@ GameObject:
   - component: {fileID: 64497270795409852}
   - component: {fileID: 54881027874938636}
   - component: {fileID: 208316735889584878}
+  - component: {fileID: 7086595921722941810}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -1540,6 +1838,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7086595921722941810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060387610436980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 92cd29065aa22426382706c8a27906d2, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1064864171141494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1884,7 @@ GameObject:
   - component: {fileID: 64710075570731402}
   - component: {fileID: 54015142132693964}
   - component: {fileID: 208609959011800210}
+  - component: {fileID: 4970383761226294556}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -1694,6 +2025,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4970383761226294556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064864171141494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: dfbebc3d171594122ba809c2cf93790d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1083509893113738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +2071,7 @@ GameObject:
   - component: {fileID: 64100271785926074}
   - component: {fileID: 54148532960097620}
   - component: {fileID: 208484742379540666}
+  - component: {fileID: 8308709195103472066}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -1848,6 +2212,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8308709195103472066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083509893113738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 9681549138b3b41dc8884deac8abf847, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1097113274260976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +2258,7 @@ GameObject:
   - component: {fileID: 64317431684930040}
   - component: {fileID: 54556500220330782}
   - component: {fileID: 208686114500327884}
+  - component: {fileID: 1998001754994942999}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -2002,6 +2399,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1998001754994942999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097113274260976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e091bf3aeddbe474882647f4fe045e06, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1109456945227950
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,6 +2445,7 @@ GameObject:
   - component: {fileID: 64248624719977358}
   - component: {fileID: 54932940980620360}
   - component: {fileID: 208037431936498492}
+  - component: {fileID: 8925511095260028572}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -2156,6 +2586,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8925511095260028572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109456945227950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8b189331f85e045b89580968f2cf9044, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1112556727886544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2632,7 @@ GameObject:
   - component: {fileID: 64464490494983286}
   - component: {fileID: 54127061142936990}
   - component: {fileID: 208684671711078564}
+  - component: {fileID: 3842221807887019385}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -2310,6 +2773,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &3842221807887019385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112556727886544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 7a2d13e3d54c7493d89e3a0cb0422ab6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1117927361723146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,6 +2819,7 @@ GameObject:
   - component: {fileID: 64113456005017528}
   - component: {fileID: 54411111462538682}
   - component: {fileID: 208532726470233128}
+  - component: {fileID: 4205167039735790954}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -2464,6 +2960,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4205167039735790954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117927361723146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 6c55bd865fb8a40b39f70287f327e8e9, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1119966615381258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +3170,7 @@ GameObject:
   - component: {fileID: 64691967821190576}
   - component: {fileID: 54763836887035286}
   - component: {fileID: 208490950822181204}
+  - component: {fileID: 7104943972858707293}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -2782,6 +3311,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &7104943972858707293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130694007569252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 7d4c38ee020fc443da71f4b538c82944, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1135298112181794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,6 +3357,7 @@ GameObject:
   - component: {fileID: 64213102688695054}
   - component: {fileID: 54871105861479668}
   - component: {fileID: 208112062066617346}
+  - component: {fileID: 5988237109972065526}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -2936,6 +3498,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &5988237109972065526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135298112181794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e5856972e069c4704a73e186357fec47, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1139346344052928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +3544,7 @@ GameObject:
   - component: {fileID: 64793378940892150}
   - component: {fileID: 54348712317862900}
   - component: {fileID: 208128230573401600}
+  - component: {fileID: 1091278429219726949}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3090,6 +3685,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1091278429219726949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139346344052928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3653d39bde207443eac6461eb409d000, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1141855245097022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3104,6 +3731,7 @@ GameObject:
   - component: {fileID: 64258105456754292}
   - component: {fileID: 54554742902607378}
   - component: {fileID: 208765202550109216}
+  - component: {fileID: 3685712291321362418}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3244,6 +3872,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3685712291321362418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141855245097022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: bb8d2602f3c08416ba6baee26cc442c6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1142760393399848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,6 +3918,7 @@ GameObject:
   - component: {fileID: 64559976035400804}
   - component: {fileID: 54009047468633644}
   - component: {fileID: 208018371128132444}
+  - component: {fileID: 895872914488138219}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3398,6 +4059,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &895872914488138219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142760393399848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 17de687e88e454ce48b70a1ada355d2e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1153521108090062
 GameObject:
   m_ObjectHideFlags: 0
@@ -3412,6 +4105,7 @@ GameObject:
   - component: {fileID: 64566658109450508}
   - component: {fileID: 54264811885410738}
   - component: {fileID: 208967301254499890}
+  - component: {fileID: 7704299585488804874}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3552,6 +4246,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7704299585488804874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153521108090062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: cc51f95acdbb5408f832d38d8c8d45f1, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1157047949885776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3566,6 +4292,7 @@ GameObject:
   - component: {fileID: 64355695912727448}
   - component: {fileID: 54341792569479940}
   - component: {fileID: 208532468965202534}
+  - component: {fileID: 3216787887581536751}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3706,6 +4433,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3216787887581536751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157047949885776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: b7c35289809d9435db72fb4e97adacea, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1162655682337494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3720,6 +4479,7 @@ GameObject:
   - component: {fileID: 64813255184271370}
   - component: {fileID: 54743088819044240}
   - component: {fileID: 208832034797346114}
+  - component: {fileID: 8035256267613206126}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -3860,6 +4620,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8035256267613206126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162655682337494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d0c0d1163c73844489fa862ffa7418bf, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1171966679952618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,6 +4666,7 @@ GameObject:
   - component: {fileID: 64599195136123294}
   - component: {fileID: 54320513523263356}
   - component: {fileID: 208956405978592250}
+  - component: {fileID: 5938339224282256080}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4014,6 +4807,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5938339224282256080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171966679952618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2262cc15082c64da89c76a64192da1be, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1173651814569798
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,6 +4853,7 @@ GameObject:
   - component: {fileID: 64087380434557124}
   - component: {fileID: 54559129474605256}
   - component: {fileID: 208053595535704646}
+  - component: {fileID: 8062230357351868220}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4168,6 +4994,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8062230357351868220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173651814569798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: dfc6284b8b40f47dea6e17652c60387e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1177468556412640
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,6 +5040,7 @@ GameObject:
   - component: {fileID: 64606436685711216}
   - component: {fileID: 54993343714577806}
   - component: {fileID: 208764425265758318}
+  - component: {fileID: 8289195787726141494}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4322,6 +5181,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8289195787726141494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177468556412640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d6996520e9678461aa4bc57fed309f6a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1192316169133490
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,6 +5227,7 @@ GameObject:
   - component: {fileID: 64530376795026866}
   - component: {fileID: 54530228457188216}
   - component: {fileID: 208159491018105054}
+  - component: {fileID: 1311851150683133318}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -4476,6 +5368,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &1311851150683133318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192316169133490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2dac71cddc6d448eea9f303e7ad7e414, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1215134962618218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4490,6 +5414,7 @@ GameObject:
   - component: {fileID: 64228741800489654}
   - component: {fileID: 54468096183769196}
   - component: {fileID: 208683914521343090}
+  - component: {fileID: 5281347482788427852}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4630,6 +5555,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5281347482788427852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215134962618218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d2c13e89ec8b44b478eea71a7fde35c2, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1217610109730408
 GameObject:
   m_ObjectHideFlags: 0
@@ -4644,6 +5601,7 @@ GameObject:
   - component: {fileID: 64968987062486024}
   - component: {fileID: 54664241149924104}
   - component: {fileID: 208902531792194410}
+  - component: {fileID: 6979508704287448999}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4784,6 +5742,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6979508704287448999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217610109730408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fb6b5654a99dc4dfba4d0a802eff82f7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1221044444370694
 GameObject:
   m_ObjectHideFlags: 0
@@ -4798,6 +5788,7 @@ GameObject:
   - component: {fileID: 64476506156238342}
   - component: {fileID: 54101150984431148}
   - component: {fileID: 208162449773815660}
+  - component: {fileID: 8291166228686056406}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -4938,6 +5929,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8291166228686056406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221044444370694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0ddad21a1b32c4b0aa4c6fb888891b8e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1223663273717360
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,6 +5975,7 @@ GameObject:
   - component: {fileID: 64326354516237910}
   - component: {fileID: 54435414036725682}
   - component: {fileID: 208087642978487942}
+  - component: {fileID: 6359116923024005032}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -5092,6 +6116,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6359116923024005032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223663273717360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e5fa1934b7cb640278946605423f812b, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1230455370083994
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,6 +6162,7 @@ GameObject:
   - component: {fileID: 64076700549790404}
   - component: {fileID: 54271088701152958}
   - component: {fileID: 208711437953315532}
+  - component: {fileID: 1505988425829852779}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -5246,6 +6303,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1505988425829852779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230455370083994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 75b210fce3f614131a1d846034a630fc, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1239996498240864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5260,6 +6349,7 @@ GameObject:
   - component: {fileID: 64276313973096996}
   - component: {fileID: 54904918594490678}
   - component: {fileID: 208628812640770886}
+  - component: {fileID: 2749429463489589128}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -5400,6 +6490,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2749429463489589128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239996498240864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 30d03769cae604d4aae410a03423fe1e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1240614978529900
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,6 +6536,7 @@ GameObject:
   - component: {fileID: 64309196476937254}
   - component: {fileID: 54372836775266592}
   - component: {fileID: 208130530194795306}
+  - component: {fileID: 97919087695432890}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -5554,6 +6677,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &97919087695432890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240614978529900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 29429dc17960a4518a2160e95ed306b1, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1240846459813382
 GameObject:
   m_ObjectHideFlags: 0
@@ -5568,6 +6723,7 @@ GameObject:
   - component: {fileID: 64879787748175832}
   - component: {fileID: 54948239343549454}
   - component: {fileID: 208312805849960228}
+  - component: {fileID: 4525635831097915413}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -5708,6 +6864,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4525635831097915413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240846459813382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c5db3e77f615043aea29fca99de98b04, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1244256841867734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,6 +6910,7 @@ GameObject:
   - component: {fileID: 64647984518218490}
   - component: {fileID: 54432179348454360}
   - component: {fileID: 208952277914833176}
+  - component: {fileID: 5353588503398833481}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -5862,6 +7051,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &5353588503398833481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244256841867734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: cb5238f809f0b482e81e4b3a7de41547, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1256516988350174
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,6 +7097,7 @@ GameObject:
   - component: {fileID: 64599536985758114}
   - component: {fileID: 54332837523223556}
   - component: {fileID: 208099521288412968}
+  - component: {fileID: 2705378155837859437}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6016,6 +7238,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2705378155837859437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256516988350174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e26ee2f1779d24f8997682936b038841, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1260206540602184
 GameObject:
   m_ObjectHideFlags: 0
@@ -6030,6 +7284,7 @@ GameObject:
   - component: {fileID: 64086023790689534}
   - component: {fileID: 54827544450489102}
   - component: {fileID: 208252174431180054}
+  - component: {fileID: 667402661321705840}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6170,6 +7425,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &667402661321705840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260206540602184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 6ad0e3bb8941145da81b29ee13d587b3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1283785394508680
 GameObject:
   m_ObjectHideFlags: 0
@@ -6184,6 +7471,7 @@ GameObject:
   - component: {fileID: 64533037746602270}
   - component: {fileID: 54263069852561740}
   - component: {fileID: 208110936685991444}
+  - component: {fileID: 8038516356694262939}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6324,6 +7612,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8038516356694262939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283785394508680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 43e2480519b824ed1bf69991307686b9, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1301655549693452
 GameObject:
   m_ObjectHideFlags: 0
@@ -6338,6 +7658,7 @@ GameObject:
   - component: {fileID: 64273992333941740}
   - component: {fileID: 54404407393181940}
   - component: {fileID: 208820794218192724}
+  - component: {fileID: 1614195613495601968}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6478,6 +7799,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1614195613495601968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301655549693452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a35949638d41d4fccb7d4ea189e84a74, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1306414230629608
 GameObject:
   m_ObjectHideFlags: 0
@@ -6492,6 +7845,7 @@ GameObject:
   - component: {fileID: 64206564459060690}
   - component: {fileID: 54437630110027460}
   - component: {fileID: 208392950959650276}
+  - component: {fileID: 8341543688586249714}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6632,6 +7986,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8341543688586249714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306414230629608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: b1667374888e9457990bd5fbc82d297f, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1312450221608592
 GameObject:
   m_ObjectHideFlags: 0
@@ -6646,6 +8032,7 @@ GameObject:
   - component: {fileID: 64236591483366150}
   - component: {fileID: 54143096948920844}
   - component: {fileID: 208628887787468908}
+  - component: {fileID: 7456420786496172714}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6786,6 +8173,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7456420786496172714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312450221608592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a334f5bf36e624dea96920f52f671bcc, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1315840758074622
 GameObject:
   m_ObjectHideFlags: 0
@@ -6800,6 +8219,7 @@ GameObject:
   - component: {fileID: 64975419733681054}
   - component: {fileID: 54531416456936754}
   - component: {fileID: 208304325847828644}
+  - component: {fileID: 7623033244310230542}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -6940,6 +8360,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7623033244310230542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315840758074622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d3dac4506b2bb4cbfb95a0706166aca7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1319511077135096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6954,6 +8406,7 @@ GameObject:
   - component: {fileID: 64880961811155842}
   - component: {fileID: 54708127092094486}
   - component: {fileID: 208208792810758542}
+  - component: {fileID: 3751713325365694321}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -7094,6 +8547,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &3751713325365694321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319511077135096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3ac250910761443cca9334c60aaa7c9c, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1326916725463512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7108,6 +8593,7 @@ GameObject:
   - component: {fileID: 64435969229400632}
   - component: {fileID: 54847076903150702}
   - component: {fileID: 208775292785727672}
+  - component: {fileID: 475085742747091475}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -7248,6 +8734,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &475085742747091475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326916725463512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d3abb069317c443a2a0717df69089c4a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1327399723628004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,6 +8780,7 @@ GameObject:
   - component: {fileID: 64054307553813544}
   - component: {fileID: 54587000875704334}
   - component: {fileID: 208473100654265096}
+  - component: {fileID: 4180653406607010716}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -7402,6 +8921,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4180653406607010716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327399723628004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 71d38d7a03a524fa8a7c5c166668b729, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1331035026748236
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,6 +8967,7 @@ GameObject:
   - component: {fileID: 64088863631209202}
   - component: {fileID: 54318085393748722}
   - component: {fileID: 208430753015744888}
+  - component: {fileID: 8020089472902131929}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -7556,6 +9108,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8020089472902131929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331035026748236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f15429f5ba4a448458d32ea768d8f16a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1339583512951444
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,6 +9154,7 @@ GameObject:
   - component: {fileID: 64495747277000894}
   - component: {fileID: 54598292949507292}
   - component: {fileID: 208907755185169602}
+  - component: {fileID: 6162670216003003213}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -7710,6 +9295,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6162670216003003213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339583512951444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c068222563553499db158889e2f333ef, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1343199774149108
 GameObject:
   m_ObjectHideFlags: 0
@@ -7724,6 +9341,7 @@ GameObject:
   - component: {fileID: 64029147997443872}
   - component: {fileID: 54225684234455500}
   - component: {fileID: 208987198680617674}
+  - component: {fileID: 3217845499866167323}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -7864,6 +9482,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3217845499866167323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343199774149108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 85dc3ad5478a04e57b58e8caca83b987, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1344188176651792
 GameObject:
   m_ObjectHideFlags: 0
@@ -7878,6 +9528,7 @@ GameObject:
   - component: {fileID: 64693517051051744}
   - component: {fileID: 54569413558130754}
   - component: {fileID: 208774965355667738}
+  - component: {fileID: 1712033282153044816}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8018,6 +9669,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1712033282153044816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344188176651792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: dd58ac23e4b82459daff2529870af04a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1348987394761728
 GameObject:
   m_ObjectHideFlags: 0
@@ -8032,6 +9715,7 @@ GameObject:
   - component: {fileID: 64243185031171452}
   - component: {fileID: 54634158324067876}
   - component: {fileID: 208174530242765656}
+  - component: {fileID: 6476300495955397395}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8172,6 +9856,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6476300495955397395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348987394761728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fac9c7eaada48429f8ee90e9af597b52, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1382922551938586
 GameObject:
   m_ObjectHideFlags: 0
@@ -8182,6 +9898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4576101473431142}
   - component: {fileID: 7404665845318917667}
+  - component: {fileID: 836143926049269365}
   m_Layer: 0
   m_Name: Trees
   m_TagString: Untagged
@@ -8226,6 +9943,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &836143926049269365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382922551938586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: cd74e98df8d384b2596d9fe991e28cda, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1384286910919010
 GameObject:
   m_ObjectHideFlags: 0
@@ -8240,6 +9989,7 @@ GameObject:
   - component: {fileID: 64174732687606212}
   - component: {fileID: 54109646380211968}
   - component: {fileID: 208537069820971180}
+  - component: {fileID: 5347719008410611584}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8380,6 +10130,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5347719008410611584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384286910919010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 57b19d61c98624a1bbab80d76d5c3095, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1386598277145580
 GameObject:
   m_ObjectHideFlags: 0
@@ -8394,6 +10176,7 @@ GameObject:
   - component: {fileID: 64755615006508624}
   - component: {fileID: 54781794439464052}
   - component: {fileID: 208115884139317550}
+  - component: {fileID: 1377461939662524434}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8534,6 +10317,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1377461939662524434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386598277145580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 1fb835dfd55e0403cad4c4bd323b5d55, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1387612826980622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8548,6 +10363,7 @@ GameObject:
   - component: {fileID: 64676861768869276}
   - component: {fileID: 54733314269922170}
   - component: {fileID: 208534775527948420}
+  - component: {fileID: 2995597144722954058}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8688,6 +10504,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2995597144722954058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387612826980622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a35056dac8b6a4bc4beb2a49aa1d23bb, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1390926046580050
 GameObject:
   m_ObjectHideFlags: 0
@@ -8702,6 +10550,7 @@ GameObject:
   - component: {fileID: 64845915830987196}
   - component: {fileID: 54785203733629734}
   - component: {fileID: 208401692233048608}
+  - component: {fileID: 570360533755557887}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8842,6 +10691,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &570360533755557887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390926046580050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 05a3f8a8a493647219427f3ee6b3c990, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1397005356970408
 GameObject:
   m_ObjectHideFlags: 0
@@ -8856,6 +10737,7 @@ GameObject:
   - component: {fileID: 64803403816343854}
   - component: {fileID: 54569027790571094}
   - component: {fileID: 208279470198387166}
+  - component: {fileID: 8348317567381245120}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -8996,6 +10878,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8348317567381245120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397005356970408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e3328b1a1327d4804a010cc68124dfe8, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1414400108847540
 GameObject:
   m_ObjectHideFlags: 0
@@ -9010,6 +10924,7 @@ GameObject:
   - component: {fileID: 64870032312414272}
   - component: {fileID: 54541553323311524}
   - component: {fileID: 208523702144442674}
+  - component: {fileID: 8714012536521429398}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -9150,6 +11065,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &8714012536521429398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414400108847540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c37309479c65e42a38d0215afdf20522, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1424350777433852
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,6 +11111,7 @@ GameObject:
   - component: {fileID: 64195307414488810}
   - component: {fileID: 54998615708728310}
   - component: {fileID: 208303266721735244}
+  - component: {fileID: 7288750381961278052}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -9304,6 +11252,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &7288750381961278052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424350777433852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 099bc29536f9e47c4b9ed3320cb56605, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1427364879914144
 GameObject:
   m_ObjectHideFlags: 0
@@ -9318,6 +11298,7 @@ GameObject:
   - component: {fileID: 64760589417600050}
   - component: {fileID: 54946020337312776}
   - component: {fileID: 208805049220916322}
+  - component: {fileID: 2887890688386785033}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -9458,6 +11439,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2887890688386785033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427364879914144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 74fc059a172c44d149cbab65d23cd668, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1443832357510584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9472,6 +11485,7 @@ GameObject:
   - component: {fileID: 64240632262306168}
   - component: {fileID: 54839259557567278}
   - component: {fileID: 208578284370910232}
+  - component: {fileID: 8476981966983723812}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -9612,6 +11626,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8476981966983723812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443832357510584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a36a637c630c44135a2de3c6ea9b6c24, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1459410470401690
 GameObject:
   m_ObjectHideFlags: 0
@@ -9626,6 +11672,7 @@ GameObject:
   - component: {fileID: 64589876434916726}
   - component: {fileID: 54783579727949946}
   - component: {fileID: 208712791218457472}
+  - component: {fileID: 8720435620137692246}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -9766,6 +11813,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8720435620137692246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459410470401690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fac07dd75c48144c8a10fe20f1e4d8d2, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1475511617964282
 GameObject:
   m_ObjectHideFlags: 0
@@ -9780,6 +11859,7 @@ GameObject:
   - component: {fileID: 64578207924856038}
   - component: {fileID: 54606943226952182}
   - component: {fileID: 208747107560654098}
+  - component: {fileID: 4191591159598033088}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -9920,6 +12000,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4191591159598033088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475511617964282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4b6d89be89eda4242bdbd739c55c8c09, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1478114673559422
 GameObject:
   m_ObjectHideFlags: 0
@@ -9934,6 +12046,7 @@ GameObject:
   - component: {fileID: 64338585649873314}
   - component: {fileID: 54459649816228340}
   - component: {fileID: 208936784982950936}
+  - component: {fileID: 4228616837339968044}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10074,6 +12187,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4228616837339968044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478114673559422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 1a97b3838862c437ba5528a10d6707ed, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1485258056849400
 GameObject:
   m_ObjectHideFlags: 0
@@ -10088,6 +12233,7 @@ GameObject:
   - component: {fileID: 64847467027780562}
   - component: {fileID: 54153553356914914}
   - component: {fileID: 208496298687951010}
+  - component: {fileID: 159577463485299057}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10228,6 +12374,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &159577463485299057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485258056849400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 82326c608ad2f48e9b59c3a0c1035ec6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1491447237437452
 GameObject:
   m_ObjectHideFlags: 0
@@ -10242,6 +12420,7 @@ GameObject:
   - component: {fileID: 64277087212483422}
   - component: {fileID: 54763209023229628}
   - component: {fileID: 208548412475444602}
+  - component: {fileID: 6418545356331422267}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10382,6 +12561,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6418545356331422267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491447237437452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: cfa5f98f99c874de882bc963670b0cf0, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1500437854486594
 GameObject:
   m_ObjectHideFlags: 0
@@ -10396,6 +12607,7 @@ GameObject:
   - component: {fileID: 64699001820574162}
   - component: {fileID: 54951915930531072}
   - component: {fileID: 208256801704270636}
+  - component: {fileID: 5306883993570839358}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10536,6 +12748,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5306883993570839358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500437854486594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 5b71d20507b5d470cbe9efc7461c0816, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1508276046701260
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,6 +12794,7 @@ GameObject:
   - component: {fileID: 64404599510275134}
   - component: {fileID: 54304806915918328}
   - component: {fileID: 208626774510788902}
+  - component: {fileID: 6326422918548751888}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10690,6 +12935,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6326422918548751888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508276046701260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f1b050bf2e6434b669222218be30e626, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1513091268490784
 GameObject:
   m_ObjectHideFlags: 0
@@ -10704,6 +12981,7 @@ GameObject:
   - component: {fileID: 64125720530556886}
   - component: {fileID: 54468552272058586}
   - component: {fileID: 208042226153752800}
+  - component: {fileID: 5721791622505919123}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10844,6 +13122,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5721791622505919123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513091268490784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 1ec457cc88b3a4cf681b17d3b006f2a1, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1516854672782968
 GameObject:
   m_ObjectHideFlags: 0
@@ -10858,6 +13168,7 @@ GameObject:
   - component: {fileID: 64506549543440970}
   - component: {fileID: 54310644119747776}
   - component: {fileID: 208472757096468382}
+  - component: {fileID: 5395703298708135991}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -10998,6 +13309,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5395703298708135991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516854672782968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 01dfe45940b074f1d82d30e6a2f4ed59, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1531026642579346
 GameObject:
   m_ObjectHideFlags: 0
@@ -11012,6 +13355,7 @@ GameObject:
   - component: {fileID: 64009808154431718}
   - component: {fileID: 54974292154695258}
   - component: {fileID: 208182095066191990}
+  - component: {fileID: 389032298692465474}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11152,6 +13496,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &389032298692465474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531026642579346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4e13f58bd50da4423a1a300222223626, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1532133356891834
 GameObject:
   m_ObjectHideFlags: 0
@@ -11166,6 +13542,7 @@ GameObject:
   - component: {fileID: 64617435165836632}
   - component: {fileID: 54293072530118266}
   - component: {fileID: 208993838831140448}
+  - component: {fileID: 1803379926856400235}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11306,6 +13683,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1803379926856400235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532133356891834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3d401f992a3ed4b3fb8e0671ec433350, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1532450189722140
 GameObject:
   m_ObjectHideFlags: 0
@@ -11320,6 +13729,7 @@ GameObject:
   - component: {fileID: 64142836256057906}
   - component: {fileID: 54959848644667500}
   - component: {fileID: 208202493406309532}
+  - component: {fileID: 9143590301437166067}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11460,6 +13870,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &9143590301437166067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532450189722140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 437177ea877dc485998693358597e845, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1536528801094146
 GameObject:
   m_ObjectHideFlags: 0
@@ -11474,6 +13916,7 @@ GameObject:
   - component: {fileID: 64856075650783932}
   - component: {fileID: 54120085758021994}
   - component: {fileID: 208243733714158766}
+  - component: {fileID: 4593197836727575707}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11614,6 +14057,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4593197836727575707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536528801094146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a42a3fdc3422c4b6db5260ca6d0b19a6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1546550213416618
 GameObject:
   m_ObjectHideFlags: 0
@@ -11628,6 +14103,7 @@ GameObject:
   - component: {fileID: 64255260516669916}
   - component: {fileID: 54662581435946674}
   - component: {fileID: 208424042773107362}
+  - component: {fileID: 9159239819178575787}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11768,6 +14244,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &9159239819178575787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546550213416618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d0cda396c8536459b878b99fd5ca1db2, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1548678913859566
 GameObject:
   m_ObjectHideFlags: 0
@@ -11782,6 +14290,7 @@ GameObject:
   - component: {fileID: 64739929506846502}
   - component: {fileID: 54002085074997172}
   - component: {fileID: 208272537014013772}
+  - component: {fileID: 3289257657774049882}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -11922,6 +14431,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3289257657774049882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548678913859566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: ebaee025a1e454c999b2fe72f2101806, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1575396728381256
 GameObject:
   m_ObjectHideFlags: 0
@@ -11936,6 +14477,7 @@ GameObject:
   - component: {fileID: 64490883386280046}
   - component: {fileID: 54530228278381746}
   - component: {fileID: 208571474193132694}
+  - component: {fileID: 7946117199272747055}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12076,6 +14618,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7946117199272747055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575396728381256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 5d44786b65b3c430891dd30dd57a15fa, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1581759249932200
 GameObject:
   m_ObjectHideFlags: 0
@@ -12122,6 +14696,7 @@ GameObject:
   - component: {fileID: 64869388634872952}
   - component: {fileID: 54527899994366830}
   - component: {fileID: 208148524107276942}
+  - component: {fileID: 7840644443053550578}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12262,6 +14837,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7840644443053550578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582492446195572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: acfcb88b3c3644993b09d4233555d9a3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1585554175038708
 GameObject:
   m_ObjectHideFlags: 0
@@ -12276,6 +14883,7 @@ GameObject:
   - component: {fileID: 64967986214811116}
   - component: {fileID: 54692148704511758}
   - component: {fileID: 208738729931117132}
+  - component: {fileID: 4504170242215557735}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12416,6 +15024,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4504170242215557735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585554175038708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0085f37baeebf445c8b74c0bbc02f215, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1590156543621736
 GameObject:
   m_ObjectHideFlags: 0
@@ -12430,6 +15070,7 @@ GameObject:
   - component: {fileID: 64531750802432622}
   - component: {fileID: 54586427544592410}
   - component: {fileID: 208693835242779458}
+  - component: {fileID: 8752002990851285926}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12570,6 +15211,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8752002990851285926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590156543621736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8e04b98ff2bb9449ab40b1a6497a114a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1592985022417890
 GameObject:
   m_ObjectHideFlags: 0
@@ -12584,6 +15257,7 @@ GameObject:
   - component: {fileID: 64130977269257644}
   - component: {fileID: 54608414328147852}
   - component: {fileID: 208806686207502634}
+  - component: {fileID: 4168695508884275495}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12724,6 +15398,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4168695508884275495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592985022417890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2e36f88cfb8494f318eca781cb3b9499, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1599977728386128
 GameObject:
   m_ObjectHideFlags: 0
@@ -12738,6 +15444,7 @@ GameObject:
   - component: {fileID: 64679914017335542}
   - component: {fileID: 54414091665394632}
   - component: {fileID: 208221754289450872}
+  - component: {fileID: 553101956760640441}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -12878,6 +15585,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &553101956760640441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599977728386128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0ba0209cdfd5441e3ab90d3a0bf7eccd, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1602782395922436
 GameObject:
   m_ObjectHideFlags: 0
@@ -12892,6 +15631,7 @@ GameObject:
   - component: {fileID: 64384455462562566}
   - component: {fileID: 54236678626725296}
   - component: {fileID: 208353575062497246}
+  - component: {fileID: 1456905515512899388}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -13032,6 +15772,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1456905515512899388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602782395922436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 62392d7a1ac274fa28957e5764fd662b, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1605957296903908
 GameObject:
   m_ObjectHideFlags: 0
@@ -13046,6 +15818,7 @@ GameObject:
   - component: {fileID: 64539279981802490}
   - component: {fileID: 54255135531191986}
   - component: {fileID: 208571873675891150}
+  - component: {fileID: 9182798952174743844}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -13186,6 +15959,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &9182798952174743844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605957296903908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d5a424ff5d343434481dfac30fa8dac5, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1626864675238910
 GameObject:
   m_ObjectHideFlags: 0
@@ -13200,6 +16005,7 @@ GameObject:
   - component: {fileID: 64987075454538526}
   - component: {fileID: 54364768905757012}
   - component: {fileID: 208007531268507496}
+  - component: {fileID: 5888087787471629337}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -13340,6 +16146,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5888087787471629337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626864675238910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 55221461303b840a1b71fb942b1d11bb, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1632899111499720
 GameObject:
   m_ObjectHideFlags: 0
@@ -13351,6 +16189,7 @@ GameObject:
   - component: {fileID: 4468128684944674}
   - component: {fileID: 218113908312973826}
   - component: {fileID: 154598361435836948}
+  - component: {fileID: 7836056773205976747}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -13435,6 +16274,38 @@ TerrainCollider:
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: 37c1e4834c1f7284d8dd3b50862a33c1, type: 2}
   m_EnableTreeColliders: 0
+--- !u!114 &7836056773205976747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632899111499720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f0191af95e33d4c1c983d3b171f98e09, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1637728945784044
 GameObject:
   m_ObjectHideFlags: 0
@@ -13449,6 +16320,7 @@ GameObject:
   - component: {fileID: 64452012328316620}
   - component: {fileID: 54572713155639828}
   - component: {fileID: 208732280526938474}
+  - component: {fileID: 5269214604038163735}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -13589,6 +16461,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5269214604038163735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637728945784044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 192313adf13a0418394b424731906e9a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1640803945889004
 GameObject:
   m_ObjectHideFlags: 0
@@ -13603,6 +16507,7 @@ GameObject:
   - component: {fileID: 64556648708818608}
   - component: {fileID: 54919065926010378}
   - component: {fileID: 208369112797806260}
+  - component: {fileID: 2659096997894861594}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -13743,6 +16648,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2659096997894861594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640803945889004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 67c5ae599e99c47e7b45b04709f206a3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1641953770614640
 GameObject:
   m_ObjectHideFlags: 0
@@ -13757,6 +16694,7 @@ GameObject:
   - component: {fileID: 64883138707304190}
   - component: {fileID: 54882793082810900}
   - component: {fileID: 208737942717190804}
+  - component: {fileID: 6716566627954758073}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -13897,6 +16835,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6716566627954758073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641953770614640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 9f4d77c6922ca4e24ae7604091224bd9, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1651735144964090
 GameObject:
   m_ObjectHideFlags: 0
@@ -13911,6 +16881,7 @@ GameObject:
   - component: {fileID: 64162549804201044}
   - component: {fileID: 54551291939078702}
   - component: {fileID: 208103638804348470}
+  - component: {fileID: 1673678009129146160}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14051,6 +17022,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1673678009129146160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651735144964090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 25242ba92c69b4becb1829bf8d315b89, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1653255316411422
 GameObject:
   m_ObjectHideFlags: 0
@@ -14065,6 +17068,7 @@ GameObject:
   - component: {fileID: 64703136331024346}
   - component: {fileID: 54380815805559342}
   - component: {fileID: 208215607341156252}
+  - component: {fileID: 6323271458402762533}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14205,6 +17209,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6323271458402762533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653255316411422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4e006a124f0eb438a990984e4391b2c6, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1655815964473660
 GameObject:
   m_ObjectHideFlags: 0
@@ -14219,6 +17255,7 @@ GameObject:
   - component: {fileID: 64108084625808698}
   - component: {fileID: 54722202054566954}
   - component: {fileID: 208386831893577672}
+  - component: {fileID: 5379881030711824180}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14359,6 +17396,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5379881030711824180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655815964473660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e0841c53703af47dbb673377518bfbea, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1691650668010780
 GameObject:
   m_ObjectHideFlags: 0
@@ -14373,6 +17442,7 @@ GameObject:
   - component: {fileID: 64743441176468288}
   - component: {fileID: 54645059529153142}
   - component: {fileID: 208679483219399356}
+  - component: {fileID: 2488596854242690430}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14513,6 +17583,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2488596854242690430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691650668010780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 6919d5c9736db40d7992a45c8701b2a1, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1695758192461638
 GameObject:
   m_ObjectHideFlags: 0
@@ -14527,6 +17629,7 @@ GameObject:
   - component: {fileID: 64330333813031452}
   - component: {fileID: 54744240922200936}
   - component: {fileID: 208898489179923246}
+  - component: {fileID: 8140193719578555370}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14667,6 +17770,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8140193719578555370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695758192461638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 72d2770a166204e03992de539673102a, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1698284024326554
 GameObject:
   m_ObjectHideFlags: 0
@@ -14681,6 +17816,7 @@ GameObject:
   - component: {fileID: 64902496537475888}
   - component: {fileID: 54124101423719266}
   - component: {fileID: 208911312482976372}
+  - component: {fileID: 7780471916196125086}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14821,6 +17957,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7780471916196125086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698284024326554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fcc278ff9c7c94461bb1faef32ed3413, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1699920759440358
 GameObject:
   m_ObjectHideFlags: 0
@@ -14835,6 +18003,7 @@ GameObject:
   - component: {fileID: 64268152625011672}
   - component: {fileID: 54663554393643334}
   - component: {fileID: 208652316090215976}
+  - component: {fileID: 7197059959980499857}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -14975,6 +18144,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7197059959980499857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699920759440358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0654267a0cfc8418a9111f41e42a36dd, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1709193164499688
 GameObject:
   m_ObjectHideFlags: 0
@@ -14989,6 +18190,7 @@ GameObject:
   - component: {fileID: 64384275513988524}
   - component: {fileID: 54672822110272256}
   - component: {fileID: 208909976048694320}
+  - component: {fileID: 7296722910557648448}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15129,6 +18331,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7296722910557648448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709193164499688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f819913c12ed5439dbbb5c92b046e33d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1722098334636342
 GameObject:
   m_ObjectHideFlags: 0
@@ -15143,6 +18377,7 @@ GameObject:
   - component: {fileID: 64818109884278726}
   - component: {fileID: 54738839295738106}
   - component: {fileID: 208879277600784196}
+  - component: {fileID: 2850037041579585619}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15283,6 +18518,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2850037041579585619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722098334636342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4a8e0e4bd0db04246ac6f9e26c283b4d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1735829671182596
 GameObject:
   m_ObjectHideFlags: 0
@@ -15297,6 +18564,7 @@ GameObject:
   - component: {fileID: 64635099638978924}
   - component: {fileID: 54608959109324658}
   - component: {fileID: 208269631686134166}
+  - component: {fileID: 6327952071220909236}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15437,6 +18705,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6327952071220909236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735829671182596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2634652bb938248e48103e37d2af64dc, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1742985394256636
 GameObject:
   m_ObjectHideFlags: 0
@@ -15451,6 +18751,7 @@ GameObject:
   - component: {fileID: 64852197079030238}
   - component: {fileID: 54840959854929684}
   - component: {fileID: 208872928446886010}
+  - component: {fileID: 7922287268412012660}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15591,6 +18892,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7922287268412012660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742985394256636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 25974603fa6a04f7b8fc32b67b1f89a4, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1744738312074888
 GameObject:
   m_ObjectHideFlags: 0
@@ -15605,6 +18938,7 @@ GameObject:
   - component: {fileID: 64488168782393926}
   - component: {fileID: 54844394214747180}
   - component: {fileID: 208066245695233532}
+  - component: {fileID: 4229400243432228254}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15745,6 +19079,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4229400243432228254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744738312074888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 5b9083296bff149c3865e93a244409ae, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1746930408957178
 GameObject:
   m_ObjectHideFlags: 0
@@ -15759,6 +19125,7 @@ GameObject:
   - component: {fileID: 64049193316784142}
   - component: {fileID: 54675719458786226}
   - component: {fileID: 208509256288462996}
+  - component: {fileID: 2098688116585253780}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -15899,6 +19266,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2098688116585253780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746930408957178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d5e61d1d4ebf64b4ead12d960be0002e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1748054172619696
 GameObject:
   m_ObjectHideFlags: 0
@@ -15913,6 +19312,7 @@ GameObject:
   - component: {fileID: 64327181078810576}
   - component: {fileID: 54167435786495040}
   - component: {fileID: 208883748278375316}
+  - component: {fileID: 5783404561022950854}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16053,6 +19453,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5783404561022950854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748054172619696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a2842e58310cd4693a43508b873c07b0, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1761065614191424
 GameObject:
   m_ObjectHideFlags: 0
@@ -16067,6 +19499,7 @@ GameObject:
   - component: {fileID: 64005825033766510}
   - component: {fileID: 54092103825555600}
   - component: {fileID: 208798008624297204}
+  - component: {fileID: 6202318767859815561}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16207,6 +19640,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &6202318767859815561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761065614191424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: d7c8e14c904464fefa781403a939e460, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1772920661991586
 GameObject:
   m_ObjectHideFlags: 0
@@ -16221,6 +19686,7 @@ GameObject:
   - component: {fileID: 64069801438665162}
   - component: {fileID: 54110731033418478}
   - component: {fileID: 208201020808582698}
+  - component: {fileID: 4100377238802612468}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16361,6 +19827,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4100377238802612468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772920661991586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 45f09036d329d4a7ea87290a33710e83, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1773289227964506
 GameObject:
   m_ObjectHideFlags: 0
@@ -16375,6 +19873,7 @@ GameObject:
   - component: {fileID: 64298547204157506}
   - component: {fileID: 54735607683363830}
   - component: {fileID: 208640247250484136}
+  - component: {fileID: 8163711352338420371}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16515,6 +20014,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8163711352338420371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773289227964506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3789318ad91fc4e21b16fdb4d981a1d3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1775464975016362
 GameObject:
   m_ObjectHideFlags: 0
@@ -16529,6 +20060,7 @@ GameObject:
   - component: {fileID: 64046810079380710}
   - component: {fileID: 54014768269702604}
   - component: {fileID: 208886109744769246}
+  - component: {fileID: 4369229344314656883}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16669,6 +20201,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4369229344314656883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775464975016362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3355b2fa018994b69af97e202f33a8ef, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1780466129265808
 GameObject:
   m_ObjectHideFlags: 0
@@ -16683,6 +20247,7 @@ GameObject:
   - component: {fileID: 64945930129101376}
   - component: {fileID: 54934016717816732}
   - component: {fileID: 208807866536293466}
+  - component: {fileID: 3342506688287662459}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16823,6 +20388,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3342506688287662459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780466129265808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 1dcbe26bbb4084cb791d5580c6b0716f, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1781397681342836
 GameObject:
   m_ObjectHideFlags: 0
@@ -16837,6 +20434,7 @@ GameObject:
   - component: {fileID: 64109832843313062}
   - component: {fileID: 54781829565881522}
   - component: {fileID: 208085184146837564}
+  - component: {fileID: 3557517814285038137}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -16977,6 +20575,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3557517814285038137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781397681342836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 975e314d01a2e42f7a5f66a848330839, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1782801971228848
 GameObject:
   m_ObjectHideFlags: 0
@@ -16991,6 +20621,7 @@ GameObject:
   - component: {fileID: 64394211610792116}
   - component: {fileID: 54763172356158994}
   - component: {fileID: 208510403559579248}
+  - component: {fileID: 1670537104935947299}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17131,6 +20762,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1670537104935947299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782801971228848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fe742d2fdaf714f03a8ba2d1bd4eecc3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1792548649326418
 GameObject:
   m_ObjectHideFlags: 0
@@ -17145,6 +20808,7 @@ GameObject:
   - component: {fileID: 64993436884876570}
   - component: {fileID: 54510493314487220}
   - component: {fileID: 208993323740369938}
+  - component: {fileID: 8253826909390350314}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17285,6 +20949,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8253826909390350314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792548649326418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f053cd1eeb1ed46a8b412bd7636cbc09, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1800678361212318
 GameObject:
   m_ObjectHideFlags: 0
@@ -17299,6 +20995,7 @@ GameObject:
   - component: {fileID: 64342273147477262}
   - component: {fileID: 54093735977486904}
   - component: {fileID: 208018842335365202}
+  - component: {fileID: 9159301075667903549}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17439,6 +21136,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &9159301075667903549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800678361212318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: ff7b0319d39914584bedae865640ad5c, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1801632115447262
 GameObject:
   m_ObjectHideFlags: 0
@@ -17453,6 +21182,7 @@ GameObject:
   - component: {fileID: 64397441001582878}
   - component: {fileID: 54305418920138448}
   - component: {fileID: 208267393240426314}
+  - component: {fileID: 3962622367104856809}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17593,6 +21323,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3962622367104856809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801632115447262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3c730a70f77ba42cb889105eb90273ff, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1808396186524170
 GameObject:
   m_ObjectHideFlags: 0
@@ -17607,6 +21369,7 @@ GameObject:
   - component: {fileID: 64085095998323234}
   - component: {fileID: 54873624542581486}
   - component: {fileID: 208783768822833706}
+  - component: {fileID: 8374673360446598837}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17747,6 +21510,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8374673360446598837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808396186524170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0cb13af21849c4c18aac4d47bff31f8f, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1815205996550302
 GameObject:
   m_ObjectHideFlags: 0
@@ -17761,6 +21556,7 @@ GameObject:
   - component: {fileID: 64829477365838318}
   - component: {fileID: 54455029796655280}
   - component: {fileID: 208444437190683778}
+  - component: {fileID: 5782274336592562776}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -17901,6 +21697,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5782274336592562776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815205996550302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a487f6352203e473fa160fede14ca88e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1824581900058106
 GameObject:
   m_ObjectHideFlags: 0
@@ -17915,6 +21743,7 @@ GameObject:
   - component: {fileID: 64968366885232992}
   - component: {fileID: 54369388288344402}
   - component: {fileID: 208971655431811436}
+  - component: {fileID: 7029367328395998304}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -18055,6 +21884,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &7029367328395998304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824581900058106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: f1c7764ad41b94f5e802829a39e668c7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1838109078541982
 GameObject:
   m_ObjectHideFlags: 0
@@ -18069,6 +21930,7 @@ GameObject:
   - component: {fileID: 64482385578912104}
   - component: {fileID: 54739569394024008}
   - component: {fileID: 208897540567094108}
+  - component: {fileID: 3202451674322940603}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -18209,6 +22071,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &3202451674322940603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838109078541982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4f0b0d324d202440f9764c8da7afac58, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1841269477421252
 GameObject:
   m_ObjectHideFlags: 0
@@ -18223,6 +22117,7 @@ GameObject:
   - component: {fileID: 64231045094466532}
   - component: {fileID: 54536974503990490}
   - component: {fileID: 208584700716574340}
+  - component: {fileID: 346933917396590732}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -18363,6 +22258,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &346933917396590732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841269477421252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: fca7665345c99425a9fc18612392fd51, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1842959982968378
 GameObject:
   m_ObjectHideFlags: 0
@@ -18377,6 +22304,7 @@ GameObject:
   - component: {fileID: 64201790113986866}
   - component: {fileID: 54166133482879920}
   - component: {fileID: 208675071072013236}
+  - component: {fileID: 1298738912799642563}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -18517,6 +22445,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &1298738912799642563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842959982968378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a6436014bd2c546e0838b8bb122eb4a7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1871281275158116
 GameObject:
   m_ObjectHideFlags: 0
@@ -18531,6 +22491,7 @@ GameObject:
   - component: {fileID: 64949548386836770}
   - component: {fileID: 54309518459747584}
   - component: {fileID: 208469621621711986}
+  - component: {fileID: 900149799745921888}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -18671,6 +22632,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &900149799745921888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871281275158116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 4eda94ee2ff0e4c1b99a840d7b16fb53, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1874339929077698
 GameObject:
   m_ObjectHideFlags: 0
@@ -18685,6 +22678,7 @@ GameObject:
   - component: {fileID: 64957628677380000}
   - component: {fileID: 54912024992434392}
   - component: {fileID: 208534088760124490}
+  - component: {fileID: 1023242041370727834}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -18825,6 +22819,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &1023242041370727834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874339929077698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 053eb1e55531b4def82fa83a368f5ec0, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1905227099241762
 GameObject:
   m_ObjectHideFlags: 0
@@ -18839,6 +22865,7 @@ GameObject:
   - component: {fileID: 64623657693895596}
   - component: {fileID: 54200606281967144}
   - component: {fileID: 208386142516634942}
+  - component: {fileID: 418262845372598965}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -18979,6 +23006,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &418262845372598965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905227099241762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 5c0772c5d5f6d4d2e9757671097be304, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1915712652183028
 GameObject:
   m_ObjectHideFlags: 0
@@ -18993,6 +23052,7 @@ GameObject:
   - component: {fileID: 64365695393210526}
   - component: {fileID: 54815556797109582}
   - component: {fileID: 208576679824159760}
+  - component: {fileID: 3081632225989689443}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -19133,6 +23193,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3081632225989689443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915712652183028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e4750409bfbf94816b9fe0f88162c45b, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1921086900667380
 GameObject:
   m_ObjectHideFlags: 0
@@ -19147,6 +23239,7 @@ GameObject:
   - component: {fileID: 64175681699202030}
   - component: {fileID: 54094289331979814}
   - component: {fileID: 208288861613727310}
+  - component: {fileID: 507570480289424627}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -19287,6 +23380,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &507570480289424627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921086900667380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2f943556a021e421687f61010cbf0d4c, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1942851839685594
 GameObject:
   m_ObjectHideFlags: 0
@@ -19301,6 +23426,7 @@ GameObject:
   - component: {fileID: 64876554555952338}
   - component: {fileID: 54931100755168234}
   - component: {fileID: 208653919236536352}
+  - component: {fileID: 6796270609174352215}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -19441,6 +23567,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &6796270609174352215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942851839685594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 3a96d43b0f817484b956108347e2b8d7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1952596802024218
 GameObject:
   m_ObjectHideFlags: 0
@@ -19455,6 +23613,7 @@ GameObject:
   - component: {fileID: 64257563232647908}
   - component: {fileID: 54773113891512610}
   - component: {fileID: 208875433612760182}
+  - component: {fileID: 8252003616016179384}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -19595,6 +23754,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8252003616016179384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952596802024218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 33a1bc1aab0b24c959ca09ad94c86ec7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1954106636677282
 GameObject:
   m_ObjectHideFlags: 0
@@ -19609,6 +23800,7 @@ GameObject:
   - component: {fileID: 64501837206046416}
   - component: {fileID: 54463978033710824}
   - component: {fileID: 208059756722658834}
+  - component: {fileID: 2467538155617948388}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -19749,6 +23941,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &2467538155617948388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954106636677282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c29668d74994a42adb16e93e86e6d714, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1958511853103760
 GameObject:
   m_ObjectHideFlags: 0
@@ -19763,6 +23987,7 @@ GameObject:
   - component: {fileID: 64318989830780536}
   - component: {fileID: 54074614985277712}
   - component: {fileID: 208221285661476414}
+  - component: {fileID: 8125175826516846968}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -19903,6 +24128,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8125175826516846968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958511853103760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: c28b2a13710cf4c6685384116bfd0967, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1963605496622230
 GameObject:
   m_ObjectHideFlags: 0
@@ -19917,6 +24174,7 @@ GameObject:
   - component: {fileID: 64035239122625520}
   - component: {fileID: 54247352166378804}
   - component: {fileID: 208051014051759524}
+  - component: {fileID: 4532804941936865728}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -20057,6 +24315,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &4532804941936865728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963605496622230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 5391cef50aa714e008c5ba3abc4ef96c, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1965924419159680
 GameObject:
   m_ObjectHideFlags: 0
@@ -20071,6 +24361,7 @@ GameObject:
   - component: {fileID: 64310618856032924}
   - component: {fileID: 54371301239783770}
   - component: {fileID: 208879814960096534}
+  - component: {fileID: 5802047077774275606}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -20211,6 +24502,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5802047077774275606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965924419159680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a17375805311f405184f20be79ebe2f1, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1967688178755378
 GameObject:
   m_ObjectHideFlags: 0
@@ -20225,6 +24548,7 @@ GameObject:
   - component: {fileID: 64769145403303658}
   - component: {fileID: 54301141271463908}
   - component: {fileID: 208924986426730550}
+  - component: {fileID: 5739022324329742720}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -20365,6 +24689,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &5739022324329742720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967688178755378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 0ee63530afb3e4741a5e8b9d348aba05, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1977676650316480
 GameObject:
   m_ObjectHideFlags: 0
@@ -20379,6 +24735,7 @@ GameObject:
   - component: {fileID: 64832553146723178}
   - component: {fileID: 54787707065909282}
   - component: {fileID: 208652419172862598}
+  - component: {fileID: 2521374909816392327}
   m_Layer: 0
   m_Name: Rock_Metal(Clone)
   m_TagString: Untagged
@@ -20519,6 +24876,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.002, y: -0.046000004, z: -0.042000003}
   m_TimeToStationary: 0.5
+--- !u!114 &2521374909816392327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977676650316480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: deab4073a71da46adafb1eaeb33cb343, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1980872608598898
 GameObject:
   m_ObjectHideFlags: 0
@@ -20533,6 +24922,7 @@ GameObject:
   - component: {fileID: 64486116923330522}
   - component: {fileID: 54383862132195598}
   - component: {fileID: 208390231112804772}
+  - component: {fileID: 3867206465800103572}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -20673,6 +25063,38 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &3867206465800103572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980872608598898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: daf05700edc33488f92efbe9d3b245f7, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1990443468265240
 GameObject:
   m_ObjectHideFlags: 0
@@ -20687,6 +25109,7 @@ GameObject:
   - component: {fileID: 64850942184938774}
   - component: {fileID: 54415131960539086}
   - component: {fileID: 208722712367691540}
+  - component: {fileID: 8551229394091793913}
   m_Layer: 0
   m_Name: Rock_Normal(Clone)
   m_TagString: Untagged
@@ -20827,3 +25250,35 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.086, y: 0.087000005, z: -0.007}
   m_TimeToStationary: 0.5
+--- !u!114 &8551229394091793913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990443468265240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 497f6f8b96aea452d8b9914896ed86da, type: 2}
+  m_BuildHeightMesh: 0
