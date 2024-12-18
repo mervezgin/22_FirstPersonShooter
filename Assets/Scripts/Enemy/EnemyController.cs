@@ -15,14 +15,14 @@ public class EnemyController : MonoBehaviour
     private EnemyState enemyState;
     private EnemyAnimator enemyAnim;
     private NavMeshAgent navMeshAgent;
-    public float walkSpeed = 0.5f;
-    public float runSpeed = 4f;
-    public float chaseDistance = 7f;
-    public float attackDistance = 1.8f;
-    public float chaseAfterAttackDistance = 2f;
-    public float patrolRadiusMin = 20f, patrolRadiusMax = 60f;
-    public float patrolForThisTime = 15f;
-    public float waitBeforeAttack = 15f;
+    [SerializeField] private float walkSpeed = 0.5f;
+    [SerializeField] private float runSpeed = 4f;
+    [SerializeField] private float chaseDistance = 20f;
+    [SerializeField] private float attackDistance = 2.2f;
+    [SerializeField] private float chaseAfterAttackDistance = 2f;
+    [SerializeField] private float patrolRadiusMin = 20f, patrolRadiusMax = 60f;
+    [SerializeField] private float patrolForThisTime = 15f;
+    [SerializeField] private float waitBeforeAttack = 2f;
     private float currentChaseDistance;
     private float patrolTimer;
     private float attackTimer;
@@ -56,22 +56,76 @@ public class EnemyController : MonoBehaviour
     }
     private void Patrol()
     {
-        //navMeshAgent.isStopped = false;
+        navMeshAgent.isStopped = false;
         navMeshAgent.speed = walkSpeed;
         patrolTimer += Time.deltaTime;
-        if (patrolTimer < patrolForThisTime)
+        if (patrolTimer > patrolForThisTime)
         {
             SetNewRandomDestination();
             patrolTimer = 0f;
         }
+        if (navMeshAgent.velocity.sqrMagnitude > 0)
+        {
+            enemyAnim.Walk(true);
+        }
+        else
+        {
+            enemyAnim.Walk(false);
+        }
+        if (Vector3.Distance(transform.position, target.position) <= chaseDistance)
+        {
+            enemyAnim.Walk(false);
+            enemyState = EnemyState.Chase;
+        }
     }
     private void Chase()
     {
+        navMeshAgent.isStopped = false;
         navMeshAgent.speed = runSpeed;
+        navMeshAgent.SetDestination(target.position);
+        if (navMeshAgent.velocity.sqrMagnitude > 0)
+        {
+            enemyAnim.Run(true);
+        }
+        else
+        {
+            enemyAnim.Run(false);
+        }
+        if (Vector3.Distance(transform.position, target.position) <= attackDistance)
+        {
+            enemyAnim.Run(false);
+            enemyAnim.Walk(false);
+            enemyState = EnemyState.Attack;
+            if (chaseDistance != currentChaseDistance)
+            {
+                chaseDistance = currentChaseDistance;
+            }
+        }
+        else if (Vector3.Distance(transform.position, target.position) > chaseDistance)
+        {
+            enemyAnim.Run(false);
+            enemyState = EnemyState.Patrol;
+            patrolTimer = patrolForThisTime;
+            if (chaseDistance != currentChaseDistance)
+            {
+                chaseDistance = currentChaseDistance;
+            }
+        }
     }
     private void Attack()
     {
-
+        navMeshAgent.velocity = Vector3.zero;
+        navMeshAgent.isStopped = true;
+        attackTimer += Time.deltaTime;
+        if (attackTimer > waitBeforeAttack)
+        {
+            enemyAnim.Attack();
+            attackTimer = 0f;
+        }
+        if (Vector3.Distance(transform.position, target.position) > attackDistance + chaseAfterAttackDistance)
+        {
+            enemyState = EnemyState.Chase;
+        }
     }
     private void SetNewRandomDestination()
     {
