@@ -9,6 +9,7 @@ public class PlayerAttack : MonoBehaviour
     public const string CROSSHAIR = "Crosshair";
     public const string ZOOMINANIM = "ZoomIn";
     public const string ZOOMOUTANIM = "ZoomOut";
+    public const string ENEMY = "Enemy";
     [SerializeField] private GameObject arrowPrefab, spearPrefab;
     [SerializeField] private Transform arrowAndBowStartPosition;
     private WeaponManager weaponManager;
@@ -17,7 +18,7 @@ public class PlayerAttack : MonoBehaviour
     private Animator zoomCameraAnim;
     private float fireRate = 15f;
     private float nextTimeToFire;
-    //private float damage = 20f;
+    private float damage = 20f;
     //private bool zoomed;
     private bool isAiming;
     private void Awake()
@@ -130,9 +131,10 @@ public class PlayerAttack : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit))
         {
-            if (hit.transform)
+            if (hit.transform.tag == ENEMY)
             {
-
+                Debug.Log("NOLDU ŞİMDİ ");
+                hit.transform.GetComponent<Health>().ApplyDamage(damage);
             }
         }
     }

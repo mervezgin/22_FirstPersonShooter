@@ -13,11 +13,13 @@ public class EnemyController : MonoBehaviour
     public const string PLAYER = "Player";
     private Transform target;
     private EnemyState enemyState;
+    public EnemyState EnemyState { get; set; }
     private EnemyAnimator enemyAnim;
     private NavMeshAgent navMeshAgent;
+    [SerializeField] private GameObject attackPoint;
     [SerializeField] private float walkSpeed = 0.5f;
     [SerializeField] private float runSpeed = 4f;
-    [SerializeField] private float chaseDistance = 20f;
+    public float chaseDistance = 20f;
     [SerializeField] private float attackDistance = 2.2f;
     [SerializeField] private float chaseAfterAttackDistance = 2f;
     [SerializeField] private float patrolRadiusMin = 20f, patrolRadiusMax = 60f;
@@ -136,5 +138,16 @@ public class EnemyController : MonoBehaviour
         NavMeshHit navMeshHit;
         NavMesh.SamplePosition(randomDirection, out navMeshHit, randomRadius, -1);
         navMeshAgent.SetDestination(navMeshHit.position);
+    }
+    private void TurnOnAttackPoint()
+    {
+        attackPoint.SetActive(true);
+    }
+    private void TurnOffAttackPoint()
+    {
+        if (attackPoint.activeInHierarchy)
+        {
+            attackPoint.SetActive(false);
+        }
     }
 }

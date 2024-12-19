@@ -26,8 +26,8 @@ public class WeaponHandler : MonoBehaviour
     public WeaponFireType weaponFireType;
     public WeaponBulletType weaponBulletType;
     //[SerializeField] private GameObject muzzleFlash;
-    //public GameObject attackPoint;
     //[SerializeField] private AudioSource shootSound, reloadSound;
+    [SerializeField] private GameObject attackPoint;
 
     void Start()
     {
@@ -59,13 +59,13 @@ public class WeaponHandler : MonoBehaviour
     }
     private void TurnOnAttackPoint()
     {
-        //attackPoint.SetActive(true);
+        attackPoint.SetActive(true);
     }
     private void TurnOffAttackPoint()
     {
-        /*if (attackPoint.activeInHierarchy)
+        if (attackPoint.activeInHierarchy)
         {
             attackPoint.SetActive(false);
-        }*/
+        }
     }
 }
