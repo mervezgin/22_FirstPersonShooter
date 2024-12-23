@@ -25,8 +25,8 @@ public class WeaponHandler : MonoBehaviour
     public WeaponAim weaponAim;
     public WeaponFireType weaponFireType;
     public WeaponBulletType weaponBulletType;
-    //[SerializeField] private GameObject muzzleFlash;
-    //[SerializeField] private AudioSource shootSound, reloadSound;
+    [SerializeField] private GameObject muzzleFlash;
+    [SerializeField] private AudioSource shootSound, reloadSound;
     [SerializeField] private GameObject attackPoint;
 
     void Start()
@@ -43,19 +43,19 @@ public class WeaponHandler : MonoBehaviour
     }
     private void TurnOnMuzzleFlash()
     {
-        //muzzleFlash.SetActive(true);
+        muzzleFlash.SetActive(true);
     }
     private void TurnOffMuzzleFlash()
     {
-        //muzzleFlash.SetActive(false);
+        muzzleFlash.SetActive(false);
     }
     private void PlayShootSound()
     {
-        //shootSound.Play();
+        shootSound.Play();
     }
     private void PlayReloadSound()
     {
-        //reloadSound.Play();
+        reloadSound.Play();
     }
     private void TurnOnAttackPoint()
     {

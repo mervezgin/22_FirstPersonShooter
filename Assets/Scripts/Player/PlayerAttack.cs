@@ -18,9 +18,9 @@ public class PlayerAttack : MonoBehaviour
     private Animator zoomCameraAnim;
     private float fireRate = 15f;
     private float nextTimeToFire;
-    private float damage = 20f;
-    //private bool zoomed;
+    [SerializeField] private float damage = 20f;
     private bool isAiming;
+    //private bool zoomed;
     private void Awake()
     {
         weaponManager = GetComponent<WeaponManager>();
@@ -133,7 +133,6 @@ public class PlayerAttack : MonoBehaviour
         {
             if (hit.transform.tag == ENEMY)
             {
-                Debug.Log("NOLDU ŞİMDİ ");
                 hit.transform.GetComponent<Health>().ApplyDamage(damage);
             }
         }

@@ -4,6 +4,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 {
     private PlayerMovement playerMovement;
     private PlayerFootSteps playerFootSteps;
+    private PlayerStats playerStats;
     private Transform lookRoot;
     private float sprintSpeed = 8.0f;
     private float moveSpeed = 4.0f;
@@ -16,11 +17,14 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     private float walkStepDistance = 0.4f;
     private float sprintStepDistance = 0.25f;
     private float crouchStepDistance = 0.5f;
+    private float sprintValue = 100.0f;
+    [SerializeField] private float sprintThreshold = 10.0f;
     private bool isCrouching;
     private void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
         playerFootSteps = GetComponentInChildren<PlayerFootSteps>();
+        playerStats = GetComponent<PlayerStats>();
         lookRoot = transform.GetChild(0);
     }
     private void Start()
@@ -36,12 +40,15 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     }
     private void Sprint()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isCrouching)
+        if (sprintValue > 0.0f)
         {
-            playerMovement.playerSpeed = sprintSpeed;
-            playerFootSteps.stepDistance = sprintStepDistance;
-            playerFootSteps.volumeMin = sprintVolume;
-            playerFootSteps.volumeMax = sprintVolume;
+            if (Input.GetKeyDown(KeyCode.LeftShift) && !isCrouching)
+            {
+                playerMovement.playerSpeed = sprintSpeed;
+                playerFootSteps.stepDistance = sprintStepDistance;
+                playerFootSteps.volumeMin = sprintVolume;
+                playerFootSteps.volumeMax = sprintVolume;
+            }
         }
         if (Input.GetKeyUp(KeyCode.LeftShift) && !isCrouching)
         {
@@ -50,6 +57,32 @@ public class PlayerSprintAndCrouch : MonoBehaviour
             playerFootSteps.stepDistance = walkStepDistance;
             playerFootSteps.volumeMin = walkVolumeMin;
             playerFootSteps.volumeMax = walkVolumeMax;
+        }
+        if (Input.GetKey(KeyCode.LeftShift) && !isCrouching)
+        {
+            sprintValue -= sprintThreshold * Time.deltaTime;
+            if (sprintValue <= 0f)
+            {
+                sprintValue = 0f;
+                playerMovement.playerSpeed = moveSpeed;
+
+                playerFootSteps.stepDistance = walkStepDistance;
+                playerFootSteps.volumeMin = walkVolumeMin;
+                playerFootSteps.volumeMax = walkVolumeMax;
+            }
+            playerStats.DisplayStaminaStats(sprintValue);
+        }
+        else
+        {
+            if (sprintValue != 100f)
+            {
+                sprintValue += (sprintThreshold / 2f) * Time.deltaTime;
+                playerStats.DisplayStaminaStats(sprintValue);
+                if (sprintValue > 100f)
+                {
+                    sprintValue = 100f;
+                }
+            }
         }
     }
     private void Crouch()
