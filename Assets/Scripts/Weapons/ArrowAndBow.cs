@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class ArrowAndBow : MonoBehaviour
 {
+    public const string ENEMY = "Enemy";
     private Rigidbody rb;
     private float speed = 30f;
     private float deactivateTimer = 3f;
-    //private float damage = 15f;
+    private float damage = 50f;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -29,6 +30,10 @@ public class ArrowAndBow : MonoBehaviour
     }
     private void OnTriggerEnter(Collider target)
     {
-
+        if (target.tag == ENEMY)
+        {
+            target.GetComponentInChildren<Health>().ApplyDamage(damage);
+            gameObject.SetActive(false);
+        }
     }
 }

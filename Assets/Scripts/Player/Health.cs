@@ -63,6 +63,7 @@ public class Health : MonoBehaviour
             navMeshAgent.enabled = false;
             enemyAnimator.enabled = false;
             StartCoroutine(DeadSound());
+            EnemyManager.instance.EnemyDied(true);
         }
         if (isBoar)
         {
@@ -71,18 +72,24 @@ public class Health : MonoBehaviour
             enemyController.enabled = false;
             enemyAnimator.Dead();
             StartCoroutine(DeadSound());
+            EnemyManager.instance.EnemyDied(false);
         }
         if (isPlayer)
         {
             Debug.Log("ÖLÜYORUM");
+
+            EnemyManager.instance.StopSpawning();
+
             GetComponent<PlayerAttack>().enabled = false;
             GetComponent<PlayerMovement>().enabled = false;
             GetComponent<WeaponManager>().GetCurrentSelectedWeapon().gameObject.SetActive(false);
+
             Debug.Log("SİLAHIMI KAYBETTİM");
+
             GameObject[] enemies = GameObject.FindGameObjectsWithTag(ENEMY);
             for (int i = 0; i < enemies.Length; i++)
             {
-                enemies[i].GetComponent<EnemyController>().enabled = false;
+                enemies[i].GetComponentInChildren<EnemyController>().enabled = false;
                 Debug.Log("YAM YAM HAREKETİNİ DURDURDU");
             }
         }
